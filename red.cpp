@@ -52,3 +52,38 @@ int main() {
 
     return 0;   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+#include <iostream> 
+
+ 
+void isEven(int number) {
+     
+    if (number % 2 == 0) {
+        std::cout << "true" << std::endl; 
+    } else {
+        std::cout << "false" << std::endl; 
+    }
+}
+
+ 
+int main() {
+    int num;
+
+    std::cout << "Enter an integer: "; 
+    std::cin >> num;
+
+    isEven(num); 
+
+    return 0;
+}
